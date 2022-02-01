@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Client.Domain\ARF.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

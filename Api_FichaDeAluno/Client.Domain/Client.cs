@@ -28,6 +28,9 @@ namespace ARF.Domain
         [Required(ErrorMessage = "Please insert a valid phone number")]
         public int Phone { get; set; }
 
+        [Required(ErrorMessage = "Please insert a valid CPF")]
+        public string CPF { get; set; }
+
         [Required(AllowEmptyStrings = false, ErrorMessage = "Address is required")]
         public string Address { get; set; }
     }
